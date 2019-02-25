@@ -1,5 +1,5 @@
 
-name = "Hugo-Octopress"
+name = "octo-hugo"
 license = "MIT"
 licenselink = "https://github.com/parsiya/Hugo-Octopress/blob/master/LICENSE.md"
 description = "Octopress classic theme for Hugo"
