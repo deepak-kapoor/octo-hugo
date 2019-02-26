@@ -89,7 +89,7 @@ video {
 
 }
 html {
-    line-height: 1
+    line-height: 1.25;
 }
 ol,
 ul {
@@ -281,7 +281,7 @@ p,
 article blockquote,
 ul,
 ol {
-    margin-bottom: 0.8em; /* changed this from 1.5em to 0.8 */
+    margin-bottom: 2.0em; /* changed this from 1.5em to 0.8 */
 }
 ul {
     list-style-type: disc
@@ -474,7 +474,8 @@ body #content>article,
 body #content>div>article,
 body #content>div>section {
     padding-left: 18px;
-    padding-right: 18px
+    padding-right: 18px;
+    line-height: 2em;
 }
 @media only screen and (min-width: 480px) {
     body>header,
@@ -537,7 +538,8 @@ body>header {
     padding-bottom: 1.5em
 }
 #content {
-    overflow: hidden
+    overflow: hidden;
+    background: #fff;
 }
 #content>div,
 #content>article {
@@ -1091,18 +1093,12 @@ article img,
 article video,
 article .flash-video,
 article .caption-wrapper {
-    -webkit-border-radius: 0.3em;
-    -moz-border-radius: 0.3em;
-    -ms-border-radius: 0.3em;
-    -o-border-radius: 0.3em;
-    border-radius: 0.3em;
     -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
     -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 1px 4px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: #fff 0.5em solid
 }
 article img.caption,
 article video.caption,
@@ -1928,3 +1924,10 @@ figure a {
 }
 
 /* Hugo Figure shortcode - end */
+
+
+.book-small {
+    margin: 5px 20px 10px 0;
+    display: inline;
+    float: left;
+}
